@@ -1,0 +1,6 @@
+.editor-controller{
+    display: flex;
+}
+.editor-controller .button-space{
+    padding-left: 15px;
+}
