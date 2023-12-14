@@ -2,10 +2,10 @@
  * Pre defined sets of query.
 */
 const query = [ 
-    "SELECT * FROM 'territories' WHERE 'territoryDescription' = 'NewYork';",
-    "SELECT * FROM 'orders' WHERE 'employeeID' <= 5;",
-    "SELECT * FROM 'products' WHERE 'categoryID' != 3;",
+    "SELECT * FROM 'territories' WHERE 'territoryDescription' = 'Wilton';",
+    "SELECT * FROM 'orders' WHERE 'shipVia' = 3;",
+    "SELECT * FROM 'products' WHERE 'unitsInStock' = 0;",
     "SELECT * FROM 'orders' WHERE 'shipName' = 'Wartian Herkku';",
-    "SELECT * FROM 'shippers' WHERE 'shipperID' = 1;"
+    "SELECT * FROM 'shippers' WHERE 'companyName' = 'Federal Shipping';"
 ];
 export {query};
