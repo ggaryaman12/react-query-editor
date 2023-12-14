@@ -1,6 +1,1 @@
-<div style="position:relative;width:fit-content;height:fit-content;">
-            <a style="position:absolute;top:20px;right:1rem;opacity:0.8;" href="https://clipchamp.com/watch/zxUKsRqpiBW?utm_source=embed&utm_medium=embed&utm_campaign=watch">
-                <img loading="lazy" style="height:22px;" src="https://clipchamp.com/e.svg" alt="Made with Clipchamp" />
-            </a>
-            <iframe allow="autoplay;" allowfullscreen style="border:none" src="https://clipchamp.com/watch/zxUKsRqpiBW/embed" width="640" height="360"></iframe>
-        </div>
+[![SC2 Video](01.png)]([https://www.youtube.com/watch?v=--b-9HrKK6w](https://www.youtube.com/watch?v=R3dY6hLV1BY)https://www.youtube.com/watch?v=R3dY6hLV1BY "SC2 Mini game - Click to Watch!")
