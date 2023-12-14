@@ -13,7 +13,7 @@ const PaginationContainer = ({table , setSlicedTable}) => {
 
     // Pagination initialization
     const [page, setPage] = useState(0);
-    const [rowsPerPage, setRowsPerPage] = useState(25);
+    const [rowsPerPage, setRowsPerPage] = useState(20);
 
     // Handling page change.
     const handleChangePage = (event, newPage) => {

@@ -59,15 +59,12 @@ const whereClauseFilter = (res, whereClause) => {
     if(whereClause){
         let filterResponse = res.filter((elem)=>{
             const [field, operator, value] = whereClause;
-            // eslint-disable-next-line eqeqeq
             if (operator === '=' && elem[field] == value) return true;
             else if (operator === '>' && elem[field] > value) return true;
             else if (operator === '<' && elem[field] < value) return true;
             else if (operator === '>=' && elem[field] >= value) return true;
             else if (operator === '<=' && elem[field] <= value) return true;
-            // eslint-disable-next-line eqeqeq
             else if (operator === '<>' && elem[field] != value) return true;
-            // eslint-disable-next-line eqeqeq
             else if (operator === '!=' && elem[field] != value) return true;
             return false;
         });

@@ -13,7 +13,7 @@ import { OutputTable } from '../OutputTable/OutputTable';
 function SqlQueryEditor() {
 
   //  SQL Editor initializations.
-  const [ query, setQuery ] = useState(`/* Start writing your query here or use pre query sets from sidebar */`);
+  const [ query, setQuery ] = useState(`/* Write your query here OR use reference queries */`);
   const [ recentQuery, setRecentQuery ] = useState([]);
   const [ tableData, setTableData ] = useState({name:"", data:[]});
   
